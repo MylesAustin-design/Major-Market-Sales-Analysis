@@ -1,4 +1,4 @@
-Major Market Sales Analysis - Power BI Dashboard
+# Major Market Sales Analysis - Power BI Dashboard
 📊 A Data-Driven Business Intelligence Dashboard for Major Market Sales Analysis
 
 🚀 Project Overview

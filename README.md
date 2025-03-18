@@ -16,15 +16,14 @@ The project follows a structured ETL workflow using SQL Server and Visual Studio
 
 1️⃣ Extract
 Data was extracted from multiple source files and external databases.
-SQL Server Integration Services (SSIS) in Visual Studio was used as a data transfer tool to bring in data from flat files, APIs, and external databases into SQL Server.
+SQL Server Integration Services (SSIS) in Visual Studio was used as a data transfer tool to bring in data from flat files into SQL Server.
 2️⃣ Transform
 Transformations were performed using SQL Server Management Studio (SSMS) and SSIS Data Flow tasks:
 Cleaning and filtering data (removing duplicates, handling null values).
-Creating calculated fields (Customer Growth MoM, Moving Average Sales, Retention Rate).
-Aggregating sales by store location and time periods.
+Creating calculated fields & Aggregating sales by store location and time periods.
 3️⃣ Load
 The processed data was loaded into SQL Server tables.
-Power BI was connected to SQL Server via Direct Query mode for real-time updates.
+Power BI was connected to SQL Server.
 DAX calculations in Power BI were used to refine KPIs.
 🖥️ Tech Stack
 SQL Server - Data storage, transformations, and aggregations.
@@ -40,25 +39,3 @@ Interactive Filters - Allows filtering by store location and product category.
 Live Dashboard Link
 🔗 Embed Power BI Report (Insert link when published)
 
-🔗 Repository Structure
-bash
-Copy
-Edit
-/major-market-sales-analysis
-│── /SQL_Scripts          # SQL Queries for transformations
-│── /SSIS_ETL             # SSIS packages for data transfer
-│── /PowerBI_Dashboard    # Power BI PBIX file
-│── /Visuals              # Dashboard Screenshots
-│── index.html            # GitHub Pages (optional)
-│── README.md             # Project Documentation
-📌 How to Use
-Clone this repository:
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/major-market-sales-analysis.git
-Open SQL Server Management Studio (SSMS) and run the provided ETL scripts.
-Open Visual Studio (SSIS) and deploy the ETL package for data processing.
-Open Power BI and connect to the SQL Server database.
-Publish the Power BI report and embed it in a web application.
-📩 Contact & Feedback

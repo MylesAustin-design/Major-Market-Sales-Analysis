@@ -37,5 +37,5 @@ KPIs - Total Sales, Max Sales, Customer Growth, and Retention.
 Charts & Graphs - Line charts, bar charts, pie charts, and trend analysis.
 Interactive Filters - Allows filtering by store location and product category.
 Live Dashboard Link
-🔗 Embed Power BI Report (Insert link when published)
+
 
